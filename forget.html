@@ -1,15 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-  <meta charset="UTF-8">
   <title>Forgot Password</title>
+  <link rel="stylesheet" href="../css/styles.css">
 </head>
 <body>
-  <h2>Forgot Password</h2>
-  <form action="/forgot-password" method="POST">
-    <label>Email:</label><br>
-    <input type="email" name="email" required><br>
-    <button type="submit">Request Reset Link</button>
-  </form>
+  <div class="container">
+    <h2>Forgot Password</h2>
+    <input type="email" placeholder="Enter your email">
+    <button onclick="sendResetLink()">Send Reset Link</button>
+    <a href="login.html">Back to Login</a>
+  </div>
+  <script src="../js/main.js"></script>
 </body>
 </html>

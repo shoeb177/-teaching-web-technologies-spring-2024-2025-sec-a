@@ -1,0 +1,28 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #1f1b1b;
+  }
+  .container {
+    max-width: 400px;
+    margin: 50px auto;
+    background:rgb(71, 63, 63);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  input, button {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px;
+  }
+  a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #388fec;
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: underline;
+  }
+  
