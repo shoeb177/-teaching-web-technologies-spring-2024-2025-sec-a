@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Minimal Calculator</title>
+  <style>
+    body {
+      font-family: Arial;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-color: #f4f4f4;
+    }
+
+    #calculator-app {
+      border: 1px solid #ccc;
+      padding: 10px;
+      border-radius: 8px;
+      background-color: #fff;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+
+    #display {
+      width: 200px;
+      height: 60px;
+      font-size: 20px;
+      margin-bottom: 10px;
+      text-align: right;
+    }
+
+    .button-container {
+      display: grid;
+      grid-template-columns: repeat(4, 40px);
+      gap: 5px;
+    }
+
+    .button-container button {
+      height: 40px;
+      font-size: 16px;
+    }
+  </style>
+</head>
+<body>
+  <div id="calculator-app">
+    <input type="text" id="display" readonly>
+    <div class="button-container" id="buttons"></div>
+  </div>
+
+  <script src="sc.js"></script>
+</body>
+</html>
